@@ -13,6 +13,8 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium
 # Run Chromium and open tabs
 /usr/bin/chromium-browser --disable-translate --disable-infobars --touch-events=enabled \
     --disable-suggestions-service --disable-save-password-bubble --kiosk --window-position=0,0 https://stg.dg.autodesk.com/ &
+
+onboard &
  
 # Start the kiosk loop. This keystroke changes the Chromium tab
 # To have just anti-idle, use this line instead:
