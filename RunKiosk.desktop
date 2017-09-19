@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/arup/webkiosk/kiosk2.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Start Kiosk
+Comment=
