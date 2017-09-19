@@ -4,6 +4,7 @@ import pygtk
 import gtk
 import webkit
 import sys
+import os
 
 class Browser:
 
