@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/arup/Exhibitions/tedwatson.py
+Exec=python /home/arup/webkiosk/tedwatson.py
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

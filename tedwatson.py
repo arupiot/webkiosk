@@ -10,6 +10,7 @@ class Browser:
     def __init__(self):
         #print(dir(webkit)
         #webkit.set_proxy("http://localhost:3128")
+        gtk.Settings().set_property('gtk-touchscreen-mode', 1)
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         self.window.fullscreen()
         #self.window.set_default_size(600,400)
