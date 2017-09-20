@@ -15,7 +15,7 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium
     --disable-suggestions-service --disable-save-password-bubble --start-fullscreen \
     --start-maximised --window-position=0,0 http://watson.ted.com &
 
-onboard &
+# onboard &
  
 # Start the kiosk loop. This keystroke changes the Chromium tab
 # To have just anti-idle, use this line instead:
