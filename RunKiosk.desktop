@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/arup/webkiosk/kiosk.sh
+Exec=/home/iot/webkiosk/kiosk.sh http://arup.com/
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
